@@ -206,6 +206,11 @@ article img {
     height: 90px;
     object-fit: cover;
   }
+  .ad-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
 }
 #date,
 #author {
