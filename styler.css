@@ -183,7 +183,7 @@ article img {
     display: flex;
     flex-direction: column;
     padding: 2em 1em;
-    padding-top: 120px;
+    padding-top: 118px;
     gap: 40px;
     min-width: 0;
   }
