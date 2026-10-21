@@ -185,7 +185,7 @@ article img {
     display: flex;
     flex-direction: column;
     padding: 2em 1em;
-    padding-top: 180px;
+    padding-top: 120px;
     gap: 40px;
     min-width: 0;
   }
