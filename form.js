@@ -33,7 +33,9 @@ function passwordVerification(e) {
       newDiv.style.display = "none";
     }, 3000);
   } else {
-    const result = confirm("you have succesfully registered into The Current");
+    const result = confirm(
+      `Welcome ${firstName.value}!, you are an official member of The current`,
+    );
     if (result) {
       form.reset();
     }

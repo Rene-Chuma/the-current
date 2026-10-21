@@ -163,15 +163,21 @@ article img {
   background-size: cover;
   min-height: 300px;
   display: flex;
+  flex-direction: column;
 
   /* justify-content: center; */
   /* align-items: center; */
 }
 .ad-content {
-  padding: 5em;
+  padding: 50px;
+  padding-bottom: 3px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 .add-buttons {
-  padding-top: 5em;
+  padding-top: 50px;
+  margin-left: 40px;
 }
 /* Tablets and Under */
 @media (max-width: 768px) {
@@ -179,6 +185,7 @@ article img {
     display: flex;
     flex-direction: column;
     padding: 2em 1em;
+    padding-top: 230px;
     gap: 40px;
     min-width: 0;
   }
@@ -202,10 +209,5 @@ article img {
     width: 100%;
     height: 90px;
     object-fit: cover;
-  }
-  .ad-content {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
   }
 }
