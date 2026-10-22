@@ -38,7 +38,7 @@ nav a {
   min-height: 510px;
   height: auto;
   background-position: center 30%;
-  padding: 5em;
+  padding: 3em;
   padding-bottom: 1em;
   display: grid;
   grid-template-columns: 1fr 1fr;
